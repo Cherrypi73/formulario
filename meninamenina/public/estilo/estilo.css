@@ -14,19 +14,34 @@ input{
 .cadastroo{
     text-decoration: none;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 50;
 }
 
 article div{
     padding: 50px;
 }
-
+body{
+    background-color: #f6dcdf;
+    text-align: center;
+}
 .inputs{
-    width: 30%;
-    height: 30px;
+    text-align: center;
     border-left: whitesmoke ;
     border-top: whitesmoke ;
     border-right: whitesmoke ;
     text-decoration: none;
+}
+input{
+    text-align: center;
+}
+h1{
+    font-family: 'Mogra', cursive;
+    color:#fbd4a1;
+    font-size: 50px;
+    text-shadow: 
+    -1px -1px 0px black, 
+    -1px 1px 0px black,                    
+     1px -1px 0px black,                  
+     1px 0px 0px black;
 }

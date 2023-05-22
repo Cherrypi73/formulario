@@ -10,7 +10,7 @@
 </head>
 
 <article>
-<body class="bodyy">
+<body class="body">
 
      <a href="/pessoas/criar">Cadastrar algo</a>
      <div class="cadastroo">
@@ -18,9 +18,9 @@
         <div><%= pessoa.nome %> </div>
         <div><%= pessoa.sobrenome %> </div>
         <div>  <%= pessoa.idade %></div>
+        <div><a href="/pessoas/delete?id=<%= pessoa.id %>">Excluir </a></div>
     <% }) %>
     </div>
-
 </article>
 </body>
 </html>

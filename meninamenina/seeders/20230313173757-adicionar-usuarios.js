@@ -4,11 +4,11 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.bulkInsert('usuarios', [
-      { nome: 'John Doe' },
-      { nome: 'Mariana' },
-      { nome: 'Maylla' },
-      { nome: 'Gabriela' },
-      { nome: 'Cordélia' }
+      { nome: 'Sailor Moon' },
+      { nome: 'Sailor Mercury ' },
+      { nome: 'Sailor Venus' },
+      { nome: 'Sailor netuno' },
+      { nome: 'Artemis' }
     ], {});
   },
 

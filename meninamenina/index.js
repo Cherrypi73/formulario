@@ -53,13 +53,9 @@ app.post('/usuarios/atualizar', async function (req, res) {
     res.status(500).json({ message: 'Ocorreu um erro ao atualizar o usuário.' });
   }
 });
-
-app.listen(3000, function() {
-  console.log('App de Exemplo escutando na porta 3000!')
-});
-app.post('/pessoas/delete', async function (req, res) {
+app.get('/pessoas/delete', async function (req, res) {
   try {
-    await pessoa.destroy({ where: { id: req.body.id } });
+    await pessoa.destroy({ where: { id: req.query.id } });
     res.redirect('/pessoas');
   } catch (err) {
     console.error(err);
@@ -67,7 +63,7 @@ app.post('/pessoas/delete', async function (req, res) {
   }
 });
 
-app.listen(3000, function () {
+app.listen(3001, function () {
   console.log('App de Exemplo escutando na porta 3000!');
 });
 

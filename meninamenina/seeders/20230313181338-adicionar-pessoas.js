@@ -5,11 +5,11 @@ module.exports = {
   async up (queryInterface, Sequelize) {
    
       await queryInterface.bulkInsert('pessoas', [
-        { nome: 'John Doe', sobrenome: 'De Sá', idade:22}, 
-        { nome: 'John Doe', sobrenome: 'De Sá', idade:22},
-        { nome: 'John Doe', sobrenome: 'De Sá', idade:22},
-        { nome: 'John Doe', sobrenome: 'De Sá', idade:22},
-        { nome: 'John Doe', sobrenome: 'De Sá', idade:22}
+        { nome: 'Sailor', sobrenome: '  Moon', idade:14}, 
+        { nome: 'Sailor', sobrenome: 'Mercury', idade:22},
+        { nome: 'Sailor', sobrenome: 'Venus', idade:22},
+        { nome: 'Sailor', sobrenome: 'netuno', idade:22},
+        { nome: 'Sailor', sobrenome: 'Artemis', idade:22}
       ], {});
     
   },
