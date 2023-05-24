@@ -11,14 +11,15 @@
 
 <article>
 <body class="body">
-
-     <a href="/pessoas/criar">Cadastrar algo</a>
+  
+     <a href="/pessoas/criar" class="cadastrar">Clique para cadastrar algo</a><br>
+     <img src="https://64.media.tumblr.com/c9b266f89bbf4780d8cd487cac06c5a8/a8e7100415ed3a4e-19/s500x750/fd40dfb2ba48640641b7fa9b0a1a9bd1faa395f0.gifv"/>
      <div class="cadastroo">
     <% pessoas.forEach((pessoa) => { %>
-        <div><%= pessoa.nome %> </div>
-        <div><%= pessoa.sobrenome %> </div>
-        <div>  <%= pessoa.idade %></div>
-        <div><a href="/pessoas/delete?id=<%= pessoa.id %>">Excluir </a></div>
+        <div class="personalizar"><%= pessoa.nome %> </div>
+        <div class="personalizar"><%= pessoa.sobrenome %> </div>
+        <div class="personalizar">  <%= pessoa.idade %></div>
+        <div><a href="/pessoas/delete?id=<%= pessoa.id %>" class="excluir">Excluir </a></div>
     <% }) %>
     </div>
 </article>

@@ -9,8 +9,31 @@ input{
     border-left: whitesmoke ;
     border-top: whitesmoke ;
     border-right: whitesmoke ;
+   border-radius: 2px 2px 2px  #f6dcdf;
+   font-size: 15px;
 }
-
+.excluir{
+    background-color: rgb(255, 255, 158);
+    padding: 10px;
+    text-decoration: none;
+    color:black
+}
+.center{
+    text-align: center;
+}
+.personalizar{
+    background-color: white;
+    border: 5px solid #f6dcdf;
+ 
+}
+.inputs2{
+    margin-left: 3%;
+}
+.cadastrar{
+ text-decoration: none;
+ font-size: 50px;
+ color:black;
+}
 .cadastroo{
     text-decoration: none;
     display: grid;
@@ -24,24 +47,35 @@ article div{
 body{
     background-color: #f6dcdf;
     text-align: center;
+    padding: 10px;
 }
 .inputs{
     text-align: center;
+    margin-left: 49%;
     border-left: whitesmoke ;
     border-top: whitesmoke ;
     border-right: whitesmoke ;
     text-decoration: none;
+    color: black;
+    font-size:20px ;
+    background-color: #fbd4a1;
+    width: 80px;
+    margin-top: 20px;
 }
 input{
     text-align: center;
 }
+label{
+    font-size: 20px;
+}
 h1{
     font-family: 'Mogra', cursive;
     color:#fbd4a1;
-    font-size: 50px;
+    font-size: 80px;
     text-shadow: 
     -1px -1px 0px black, 
     -1px 1px 0px black,                    
      1px -1px 0px black,                  
      1px 0px 0px black;
+
 }
